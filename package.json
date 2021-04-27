@@ -1,13 +1,15 @@
 {
   "name": "docker-image-check",
-  "bin": { "dic": "index.js" },
+  "bin": {
+    "dic": "index.js"
+  },
   "version": "0.1.0",
   "description": "Checks for the highest available tag of a docker image",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maik Hummel <yo@beevelop.com> (https://beevelop.com)",
+  "author": "Michael Buluma <me@buluma.me.ke>",
   "license": "MIT",
   "dependencies": {
     "got": "^7.0.0",
